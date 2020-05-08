@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicWebFormGenerationUtility.Common", "DynamicWebFormGenerationUtility.Common\DynamicWebFormGenerationUtility.Common.csproj", "{65263708-46A9-4B5D-8D32-CC88C5B47467}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicWebFormGenerationUtility.DAL", "DynamicWebFormGenerationUtility.DAL\DynamicWebFormGenerationUtility.DAL.csproj", "{14F05F4E-49AD-49C7-9DB8-07258FB1B717}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicWebFormGenerationUtility.BAL", "DynamicWebFormGenerationUtility.BAL\DynamicWebFormGenerationUtility.BAL.csproj", "{F03DA38A-1C74-450D-B47D-8B826391AAE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicWebFormGenerationUtility.UIL", "DynamicWebFormGenerationUtility.UIL\DynamicWebFormGenerationUtility.UIL.csproj", "{A2FD6B87-0398-474E-9E90-74A1D5231D2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicWebFormGenerationUtility.Entity", "DynamicWebFormGenerationUtility.Entity\DynamicWebFormGenerationUtility.Entity\DynamicWebFormGenerationUtility.Entity.csproj", "{52FF3ACD-2307-4FC9-A93A-F4726A481AF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65263708-46A9-4B5D-8D32-CC88C5B47467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65263708-46A9-4B5D-8D32-CC88C5B47467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65263708-46A9-4B5D-8D32-CC88C5B47467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65263708-46A9-4B5D-8D32-CC88C5B47467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14F05F4E-49AD-49C7-9DB8-07258FB1B717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F05F4E-49AD-49C7-9DB8-07258FB1B717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F05F4E-49AD-49C7-9DB8-07258FB1B717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F05F4E-49AD-49C7-9DB8-07258FB1B717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F03DA38A-1C74-450D-B47D-8B826391AAE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F03DA38A-1C74-450D-B47D-8B826391AAE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F03DA38A-1C74-450D-B47D-8B826391AAE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F03DA38A-1C74-450D-B47D-8B826391AAE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2FD6B87-0398-474E-9E90-74A1D5231D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2FD6B87-0398-474E-9E90-74A1D5231D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2FD6B87-0398-474E-9E90-74A1D5231D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2FD6B87-0398-474E-9E90-74A1D5231D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52FF3ACD-2307-4FC9-A93A-F4726A481AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52FF3ACD-2307-4FC9-A93A-F4726A481AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52FF3ACD-2307-4FC9-A93A-F4726A481AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52FF3ACD-2307-4FC9-A93A-F4726A481AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+		SolutionGuid = {9EB6AEA3-1D9A-4266-AA79-B0BEC1C309F8}
+	EndGlobalSection
+EndGlobal

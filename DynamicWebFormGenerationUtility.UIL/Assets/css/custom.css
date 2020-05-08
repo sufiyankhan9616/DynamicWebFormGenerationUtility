@@ -1,0 +1,181 @@
+﻿.content-wrapper {
+   
+    background-color: #fff;
+    
+}
+
+.skin-blue .content-header, .skin-blue-light .content-header {
+    background: rgba(59,132,179,0.1);
+}
+
+.skin-black .content-header, .skin-black-light .content-header {
+    background: #eee;
+}
+
+.skin-purple .content-header, .skin-purple-light .content-header {
+    background: rgba(88,83,157,0.1);
+}
+
+.skin-green .content-header, .skin-green-light .content-header {
+    background: rgba(19,158,84,0.1);
+}
+
+.skin-red .content-header, .skin-red-light .content-header {
+    background: rgba(214,66,56,0.1);
+}
+
+.skin-yellow .content-header, .skin-yellow-light .content-header {
+    background: rgba(239,147,39,0.1);
+}
+
+.box {
+    border: 1px solid #d2d6de;
+    border-top: 3px solid #d2d6de;
+}
+
+table.dataTable thead .sorting:after {
+    opacity: 0.2;
+    content: "\e119";
+}
+
+.submit-agileits input[type="submit"] {
+    padding: 13px 20px;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th {
+    background: #ddd;
+}
+
+.navbar-nav > .user-menu > .dropdown-menu > .user-body {
+    background: url('../../images/noise-2.png') center;
+}
+ 
+
+.btn-submit {
+    padding: 3px 12px;
+    font-size: 18px;
+    border-radius: 20px;
+    min-width:85px;
+}
+
+.btn-reset {
+    padding: 3px 12px;
+    font-size: 18px;
+    border-radius: 20px;
+    background: #ddd;
+    border: 3px solid #ddd;
+    color: #4a4a4a;
+    min-width: 85px;
+}
+
+    .btn-reset:hover, .btn-reset:focus {
+        background: transparent;
+        border: 3px solid #ddd;
+        color: #4a4a4a;
+    }
+
+.skin-blue .btn-submit, .skin-blue-light .btn-submit {
+    background: rgba(59,132,179,1);
+    border: 3px solid rgba(59,132,179,1);
+    color: #fff;
+}
+
+    .skin-blue .btn-submit:hover, .skin-blue-light .btn-submit:hover {
+        background: transparent;
+        border: 3px solid rgba(59,132,179,1);
+        color: rgba(59,132,179,1);
+    }
+
+.skin-black .btn-submit, .skin-black-light .btn-submit, .btn-submit {
+    background: #111;
+    border: 3px solid #111;
+    color: #fff;
+}
+
+    .skin-black .btn-submit:hover, .skin-black-light .btn-submit:hover, .btn-submit:hover {
+        background: transparent;
+        color: #4a4a4a;
+    }
+
+.skin-purple .btn-submit, .skin-purple-light .btn-submit {
+    background: rgba(88,83,157,1);
+    border: 3px solid rgba(88,83,157,1);
+    color: #fff;
+}
+
+    .skin-purple .btn-submit:hover, .skin-purple-light .btn-submit:hover {
+        background: transparent;
+        color: rgba(88,83,157,1);
+    }
+
+.skin-green .btn-submit, .skin-green-light .btn-submit {
+    background: rgba(19,158,84,1);
+    border: 3px solid rgba(19,158,84,1);
+    color: #fff;
+}
+
+    .skin-green .btn-submit:hover, .skin-green-light .btn-submit:hover {
+        background: transparent;
+        color: rgba(19,158,84,1);
+    }
+
+
+.skin-red .btn-submit, .skin-red-light .btn-submit {
+    background: rgba(214,66,56,1);
+    border: 3px solid rgba(214,66,56,1);
+    color: #fff;
+}
+
+    .skin-red .btn-submit:hover, .skin-red-light .btn-submit:hover {
+        background: transparent;
+        color: rgba(214,66,56,1);
+    }
+
+.skin-yellow .btn-submit, .skin-yellow-light .btn-submit {
+    background: rgba(239,147,39,1);
+    border: 3px solid rgba(239,147,39,1);
+    color: #fff;
+}
+
+    .skin-yellow .btn-submit:hover, .skin-yellow-light .btn-submit:hover {
+        background: transparent;
+        color: rgba(239,147,39,1);
+    }
+
+
+
+
+
+.bg-ul li {
+    background: url('../../images/noise-2.png');
+}
+
+    .bg-ul li a {
+        color: #000;
+    }
+.content-header > h1 {
+    margin: 0;
+    font-size: 19px;
+    font-weight:bold;
+}
+.redAstric {
+    color:red;
+    margin-left:5px;
+}
+.mymodal .modal-header {
+    background: #ddd;
+    color: #111;
+}
+
+.mymodal .modal-title {
+    font-weight: bold !important;
+}
+
+.mymodal .modal-footer {
+    background: #eee;
+}
+input[type="checkbox"], input[type="radio"] {
+    margin: 9px 0 0;
+    margin-top: 1px\9;
+    line-height: normal;
+}
