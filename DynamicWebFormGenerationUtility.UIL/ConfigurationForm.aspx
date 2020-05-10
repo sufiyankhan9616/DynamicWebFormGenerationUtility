@@ -151,7 +151,7 @@
                             <label class="control-label col-sm-4 col-xs-12">Is Compulsory Entry</label><div class="control-form col-sm-2 col-xs-12">
                                 <asp:checkbox id="chkIsCompulsaryEntry" runat="server" checked="false" />
                             </div>
-							<label class="control-label col-sm-2 col-xs-12">Is Searchable Control</label><div class="control-form col-sm-2 col-xs-6">
+							<label class="control-label col-sm-2 col-xs-12">Is Searchable DropDown</label><div class="control-form col-sm-2 col-xs-6">
                                 <asp:checkbox id="chkSarchableDrp" runat="server" checked="false" />
                             </div>
                         </div>
