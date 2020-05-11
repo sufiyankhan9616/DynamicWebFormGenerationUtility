@@ -198,7 +198,7 @@
                 <div class="panel panel-default">
 
                     <div class="box-body">
-                        <asp:Repeater Visible="false" ID="sectionSerach" runat="server">
+                        <asp:Repeater  ID="sectionSerach" runat="server">
                             <ItemTemplate>
                                 <US:USPlaceHolder ID="TXT" InputType='<%# Eval("InputType").ToString() %>' DBName='<%#Eval("ConfigurationHeadId").ToString() %>' runat="server" Visible='<%# (Eval("InputType").ToString() == "TXT") %>'>
                                     <div class="form-group">

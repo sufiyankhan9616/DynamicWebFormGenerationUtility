@@ -257,6 +257,7 @@ namespace DynamicWebFormGenerationUtility.UIL
                             msg.GetMsg(this.Page, check.Tables[i].Rows[0]["RetMsg"].ToString(), "");
                             clrscr();
                             GetSetClass(false, true);
+                            btnSearch_Click(null, null);
                         }
                         else if (Convert.ToInt32(check.Tables[i].Rows[0]["RetVal"]) == 2)
                         {
@@ -265,6 +266,7 @@ namespace DynamicWebFormGenerationUtility.UIL
                             clrscr();
                             GetSetClass(false, true);
                             msg.GetMsg(this.Page, check.Tables[i].Rows[0]["RetMsg"].ToString(), "");
+                            btnSearch_Click(null, null);
                         }
                         else if (Convert.ToInt32(check.Tables[i].Rows[0]["RetVal"]) == -1)
                         {
@@ -337,6 +339,7 @@ namespace DynamicWebFormGenerationUtility.UIL
                 sectionLev1.DataBind();
                 sectionSerach.DataSource = BindSearchingRepeter();
                 sectionSerach.DataBind();
+                btnSearch.Visible = true;
             }
             else
             {
